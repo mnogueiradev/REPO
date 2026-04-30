@@ -1,0 +1,30 @@
+{
+  "smtp": {
+    "server": "smtp.gmail.com",
+    "port": 587,
+    "username": "seu-email@gmail.com",
+    "password": "sua-senha-de-app",
+    "use_tls": true
+  },
+  "newsletter": {
+    "from_name": "LogSense Newsletter",
+    "from_email": "newsletter@logsense.com",
+    "max_articles": 5,
+    "olhar_digital_min_articles": 1
+  },
+  "feeds": {
+    "additional_sources": [
+      "https://g1.globo.com/rss/g1/",
+      "https://feeds.folha.uol.com.br/emcimadahora/rss091.xml",
+      "https://www.tecmundo.com.br/rss/",
+      "https://rss.cnn.com/rss/edition.rss",
+      "https://techcrunch.com/feed/"
+    ]
+  },
+  "schedule": {
+    "enabled": true,
+    "time_zone": "America/Sao_Paulo",
+    "send_time": "09:00",
+    "days_of_week": ["monday", "wednesday", "friday"]
+  }
+}

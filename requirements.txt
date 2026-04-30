@@ -1,0 +1,22 @@
+# Dependências do LogSense - Sistema de Detecção de Ataques
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
+numpy==1.24.3
+pandas==2.0.3
+scikit-learn==1.3.0
+tensorflow==2.12.0
+h5py==3.9.0
+python-multipart==0.0.6
+
+# Dependências para Newsletter e Email
+feedparser==6.0.10
+requests==2.31.0
+schedule==1.2.0
+jinja2==3.1.2
+
+# Dependências de desenvolvimento
+pytest==7.4.3
+pytest-cov==4.1.0
+black==23.11.0
+flake8==6.1.0
